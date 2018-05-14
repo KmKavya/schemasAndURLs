@@ -1,0 +1,26 @@
+{
+  "name": "schemasandurls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "applicationConfigSchema.js",
+  "scripts": {
+      "test": "mocha validation/*.test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KmKavya/schemasAndURLs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KmKavya/schemasAndURLs/issues"
+  },
+  "homepage": "https://github.com/KmKavya/schemasAndURLs#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "jsonschema": "^1.2.4"
+  }
+}
