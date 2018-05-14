@@ -4,7 +4,7 @@
   "description": "",
   "main": "applicationConfigSchema.js",
   "scripts": {
-      "test": "mocha validation/*.test.js --reporter spec"
+      "test": "mocha validationTest/*.test.js --reporter spec"
   },
   "repository": {
     "type": "git",

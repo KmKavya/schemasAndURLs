@@ -2,7 +2,7 @@ const chai = require("chai");
 const expect = chai.expect;
 
 const validate = require("jsonschema").validate;
-const roleSchema = require('../roleSchema').schema;
+const roleSchema = require('../schemas/roleSchema').schema;
 
 let validRole = {
   roleId: 1,
@@ -40,10 +40,9 @@ describe("testing role schema", () => {
   });
 
   it('should return error for undefined roleName input', (done) => {
-    var k;
     var res = validate({
       roleId: 1,
-      roleName: k,
+      roleName: undefined,
       createdBy: "system",
       createdDate: new Date().toISOString()
     }, roleSchema);

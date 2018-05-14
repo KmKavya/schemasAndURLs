@@ -1,6 +1,6 @@
 module.exports.schema = {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "applicationConfigModel"
+  "title": "applicationConfigModel",
   "type": "object",
   "properties": {
     "applicationConfigId": {
