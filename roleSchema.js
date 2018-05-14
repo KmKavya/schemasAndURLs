@@ -1,6 +1,6 @@
 module.exports.schema = {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "roleModel"
+  "title": "roleModel",
   "type": "object",
   "properties": {
     "roleId": {
