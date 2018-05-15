@@ -7,7 +7,7 @@ module.exports.schema = {
       "type": "number"
     },
     "menuGroupId": {
-      "$ref":"menuGroupSchema"
+      "$ref": "https://github.com/KmKavya/schemasAndURLs/blob/master/schemas/menuGroupSchema.js#/definitions/menuGroup/menuGroupId"
     },
     "menuItemCode": {
       "type": "string",
@@ -28,5 +28,5 @@ module.exports.schema = {
       "type": "number"
     }
   },
-  "required": ["menuGroupId","menuItemCode","title"]
+  "required": ["menuGroupId", "menuItemCode", "title"]
 };
