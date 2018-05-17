@@ -1,5 +1,7 @@
 module.exports.schema = {
   "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "menuGroupModel",
+  "type": "object",
   "properties": {
     "menuGroupId": {
       "type": "number"
@@ -25,6 +27,5 @@ module.exports.schema = {
       "maxLength": 50
     }
   },
-  "type": "object",
   "required": ["menuGroupId", "menuGroupCode", "menuGroupType", "title"]
-}
+};
