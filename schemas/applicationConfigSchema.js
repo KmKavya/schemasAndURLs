@@ -7,7 +7,7 @@ module.exports.schema = {
       "type": "number"
     },
     "applicationId": {
-      "$ref": "https://github.com/Evolvus/evolvus-applicationentity/blob/master/model/applicationEntitySchema.js"
+      "type": "number"
     },
     "attributeCode": {
       "type": "string",

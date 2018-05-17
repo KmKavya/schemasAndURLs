@@ -35,6 +35,7 @@ describe("testing role schema", () => {
       roleName: "admin",
       createdBy: "system"
     }, roleSchema);
+    expect(res.valid).to.eql(false);
     expect(res.errors[0].message).to.eql('requires property "createdDate"');
     done();
   });
@@ -46,6 +47,7 @@ describe("testing role schema", () => {
       createdBy: "system",
       createdDate: new Date().toISOString()
     }, roleSchema);
+    expect(res.valid).to.eql(false);
     expect(res.errors[0].message).to.eql('requires property "roleName"');
     done();
   });

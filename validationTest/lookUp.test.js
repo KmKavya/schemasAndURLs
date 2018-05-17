@@ -42,6 +42,7 @@ describe("testing lookup schema", () => {
       createdBy: "system",
       createdDate: new Date().toISOString()
     }, lookUpSchema);
+    expect(res.valid).to.eql(false);
     expect(res.errors[0].message).to.eql('requires property "lookupType"');
     done();
   });
